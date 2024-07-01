@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS Voting (
+    id SERIAL PRIMARY KEY,
+    upvotes INTEGER DEFAULT 0,
+    downvotes INTEGER DEFAULT 0
+);
